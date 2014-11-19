@@ -1,0 +1,44 @@
+{
+	"name": "saigon/conpago-database-doctrine-di",
+	"description": "Conpago.Database.Doctrine.DI",
+	"version": "0.0.1-alpha",
+	"type": "library",
+	"authors": [
+		{
+			"name": "Bartosz Gołek",
+			"email": "bartosz.golek@gmail.com",
+			"homepage": "http://bartosz.golek.biz"
+		}
+	],
+	"repositories": [
+		{
+			"type": "hg",
+			"url": "http://scm.golek.biz/scm/hg/Conpago.DI"
+		},
+		{
+			"type": "hg",
+			"url": "http://scm.golek.biz/scm/hg/Conpago.Database.Doctrine"
+		},
+		{
+			"type": "hg",
+			"url": "http://scm.golek.biz/scm/hg/Conpago.Database.Doctrine.Contract"
+		}
+	],
+	"require": {
+		"saigon/conpago-di": "dev-master",
+		"saigon/conpago-database-doctrine-contract": "dev-master",
+		"saigon/conpago-database-doctrine": "dev-master"
+	},
+	"require-dev": {
+		"pdepend/pdepend": "2.0.0",
+		"phpmd/phpmd": "2.0.0",
+		"squizlabs/php_codesniffer": "1.5.3",
+		"sebastian/phpcpd": "2.0.1",
+		"phpunit/phpunit": "4.1.1"
+	},
+	"autoload": {
+		"psr-0": {
+			"Saigon\\Conpago\\Database\\Doctrine\\": "src/"
+		}
+	}
+}
