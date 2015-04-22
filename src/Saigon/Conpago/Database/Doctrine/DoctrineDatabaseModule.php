@@ -8,6 +8,7 @@
 
 	namespace Saigon\Conpago\Database\Doctrine;
 
+	use Saigon\Conpago\DI\IContainer;
 	use Saigon\Conpago\DI\IContainerBuilder;
 	use Saigon\Conpago\DI\IModule;
 
