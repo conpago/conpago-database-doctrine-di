@@ -1,8 +1,8 @@
 {
 	"name": "saigon/conpago-database-doctrine-di",
-	"description": "Conpago.Database.Doctrine.DI",
-	"version": "0.0.1-alpha",
+	"description": "Doctrine ORM adapter implementation dependency injection module for Conpago framework.",
 	"type": "library",
+	"license": "MIT",
 	"authors": [
 		{
 			"name": "Bartosz Gołek",
@@ -10,29 +10,11 @@
 			"homepage": "http://bartosz.golek.biz"
 		}
 	],
-	"repositories": [
-		{
-			"type": "hg",
-			"url": "http://scm.golek.biz/scm/hg/Conpago.DI"
-		},
-		{
-			"type": "hg",
-			"url": "http://scm.golek.biz/scm/hg/Conpago.Database.Doctrine"
-		},
-		{
-			"type": "hg",
-			"url": "http://scm.golek.biz/scm/hg/Conpago.Database.Doctrine.Contract"
-		},
-		{
-			"type": "hg",
-			"url": "http://scm.golek.biz/scm/hg/Conpago.Contract"
-		}
-	],
 	"require": {
-		"saigon/conpago-di": "dev-master",
-		"saigon/conpago-contract": "dev-master",
-		"saigon/conpago-database-doctrine-contract": "dev-master",
-		"saigon/conpago-database-doctrine": "dev-master"
+		"saigon/conpago-di": "dev-default",
+		"saigon/conpago-contract": "dev-default",
+		"saigon/conpago-database-doctrine-contract": "dev-default",
+		"saigon/conpago-database-doctrine": "dev-default"
 	},
 	"require-dev": {
 		"pdepend/pdepend": "*",
