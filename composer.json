@@ -3,6 +3,8 @@
 	"description": "Doctrine ORM adapter implementation dependency injection module for Conpago framework.",
 	"type": "library",
 	"license": "MIT",
+	"minimum-stability": "dev",
+	"prefer-stable": true,
 	"authors": [
 		{
 			"name": "Bartosz Gołek",
